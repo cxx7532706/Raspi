@@ -1,0 +1,10 @@
+#Raspi command
+
+open bluetooth config: bluetoothctl
+
+sink setup: pacmd
+audio sink volumn change: pactl
+
+bluetooth channel: 
+    pulseaudio
+    ps aux | grep pulseaudio
